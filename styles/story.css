@@ -1,0 +1,38 @@
+story {
+    margin-left: 3em;
+    margin-right: 3em;
+    display: block;
+}
+
+.story-block {
+    text-align: left;
+    padding: 1.5em 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 3em;
+}
+
+.story-block h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.story-block p {
+    --color: #ccc;
+    color: var(--color);
+}
+
+.tags {
+    --color: #808080;
+    display: flex;
+    justify-content: space-between;
+    color: var(--color);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0.3em;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.story-block:hover {
+    background-image: linear-gradient(90deg, rgba(30, 28, 50, 0.8) 0%, rgba(43, 22, 29, 0.7) 100%);
+}

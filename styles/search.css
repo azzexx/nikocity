@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+input#searchInput {
+  font-size: 15px;
+  background-color: var(--color);
+  backdrop-filter: blur(54px);
+  padding: 0.5em 1.5em;
+  border-radius: 12px;
+  color: var(--bg);
+  transition: .2s;
+  margin-bottom: 2em;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+input#searchInput:focus {
+  border: 3px solid #0e0e11;
+  box-shadow: 0 0 0px 3px var(--white);
+}
+
+input#searchInput::placeholder {
+  font-family: 'Poppins', sans-serif;
+  color: var(--bg);
+}
+
+section {
+  margin-top: 7em;
+  margin-right: 19.5em;
+  margin-left: 19.5em;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  color: #ccc;
+  list-style-type: none;
+  transition: .3s;
+}
+
+li a:hover {
+  color: var(--color);
+}
+
+li a:before {
+    content: "✦";
+    font-size: 10px;
+    position: relative;
+    margin-right: 5px;
+    margin-top: -5px;
+    top: 0;
+    color: #cccccc5c;
+} 

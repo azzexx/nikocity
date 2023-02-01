@@ -1,0 +1,36 @@
+.dbJGBb::before {
+    content: "✦";
+    opacity: 0.6;
+    font-size: 10px;
+    position: absolute;
+    left: -4px;
+    width: 8px;
+    height: 8px;
+}
+
+.dbJGBb.top {
+    font-size: 18px;
+    opacity: 0.9;
+    display: block;
+    margin-left: 5em;
+}
+
+.dbJGBb {
+    line-height: 140%;
+    position: relative;
+    padding: 0px 12px;
+    font-size: 16px;
+    letter-spacing: -0.25px;
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    background-repeat: repeat;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(258.32deg,#FBFBFD 0%,#E795B7 32.71%,#935893 65.43%,#224D88 98.14%);
+}
+
+.allsupporters {
+    display: flex;
+    gap: 7em;
+    color: #ddd;
+}

@@ -1,0 +1,74 @@
+versions {
+    text-align: center;
+    justify-content: center;
+    display: block;
+    position: absolute;
+    top: 7em;
+    width: 100%;
+}
+
+.vsaever {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    margin-top: 3em;
+}
+
+.vseav {
+    color: #bebfc1;
+    border: 1px solid #a9abae36;
+    padding: 15px 25px;
+    border-radius: 15px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.vsaev:hover {
+    border: none;
+    background-image: linear-gradient(90deg, rgba(30, 28, 50, 0.8) 0%, rgba(43, 22, 29, 0.7) 100%);
+}
+
+.vseav p {
+    font-weight: bold;
+    color: #ddd;
+}
+
+.vseav ha {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+ha.live {
+    background-image: linear-gradient(90deg,#1C45A6 0%,#44B5A2 50%,#D4FBB5 100%);
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    background-repeat: repeat;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.blob {
+    border-radius: 50%;
+    margin: 10px;
+    height: 8px;
+    top: 71px;
+    right: 60.4em;
+    width: 8px;
+    position: absolute;
+    transform: scale(1);
+    background: rgb(0, 169, 98);
+    box-shadow: rgb(51 217 178) 0px 0px 0px 0px;
+    animation: 2s ease 0s infinite normal none running pulse-green;
+}
+
+h9s {
+    font-size: 1.5em;
+    position: relative;
+    display: block;
+}
+
+a.sea {
+    font-size: 15px;
+    position: relative;
+    margin-top: -15px;
+}
